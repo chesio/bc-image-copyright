@@ -16,7 +16,9 @@ Use `bc_image_copyright` function to display or fetch copyright information of p
 echo bc_image_copyright(123);
 
 // Display copyright information of current featured image.
-echo bc_image_copyright(get_post_thumbnail_id());
+if (has_post_thumbnail()) {
+  echo bc_image_copyright(get_post_thumbnail_id());
+}
 
 // Display only manually entered copyright information (if any), do not read image file metadata as fallback.
 echo bc_image_copyright(123, true);
