@@ -2,7 +2,7 @@
   "name": "chesio/bc-image-copyright",
   "type": "wordpress-plugin",
   "license": "Unlicense",
-  "description": "Display and manage copyright info of your (image) media files.",
+  "description": "Display and manage copyright information of your (image) image files.",
   "homepage": "https://github.com/chesio/bc-image-copyright",
   "authors": [
     {

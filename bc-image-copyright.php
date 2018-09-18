@@ -2,7 +2,7 @@
 /**
  * Plugin Name: BC Image Copyright
  * Plugin URI: https://github.com/chesio/bc-image-copyright
- * Description: Display and manage copyright info of your (image) image files.
+ * Description: Display and manage copyright information of your (image) image files.
  * Version: 1.0.0
  * Author: Česlav Przywara <ceslav@przywara.cz>
  * Author URI: https://www.chesio.com
