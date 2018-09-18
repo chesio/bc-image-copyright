@@ -1,0 +1,23 @@
+{
+  "name": "chesio/bc-image-copyright",
+  "type": "wordpress-plugin",
+  "license": "Unlicense",
+  "description": "Display and manage copyright info of your (image) media files.",
+  "homepage": "https://github.com/chesio/bc-image-copyright",
+  "authors": [
+    {
+      "name": "Česlav Przywara",
+      "homepage": "https://www.chesio.com"
+    }
+  ],
+  "keywords": [
+    "wordpress", "wordpress-plugin"
+  ],
+  "support": {
+    "issues": "https://github.com/chesio/bc-image-copyright/issues"
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "composer/installers": "~1.0"
+  }
+}
