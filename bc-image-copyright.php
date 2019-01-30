@@ -3,7 +3,7 @@
  * Plugin Name: BC Image Copyright
  * Plugin URI: https://github.com/chesio/bc-image-copyright
  * Description: Display and manage copyright information of your (image) image files.
- * Version: develop
+ * Version: 1.1.0
  * Author: Česlav Przywara <ceslav@przywara.cz>
  * Author URI: https://www.chesio.com
  * Requires PHP: 7.1
