@@ -3,23 +3,23 @@
  * Plugin Name: BC Image Copyright
  * Plugin URI: https://github.com/chesio/bc-image-copyright
  * Description: Display and manage copyright information of your (image) image files.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Česlav Przywara <ceslav@przywara.cz>
  * Author URI: https://www.chesio.com
- * Requires PHP: 7.0
+ * Requires PHP: 7.1
  * Requires WP: 4.9
  * Tested up to: 4.9
  * Text Domain: bc-image-copyright
  * GitHub Plugin URI: https://github.com/chesio/bc-image-copyright
  */
 
-if (version_compare(PHP_VERSION, '7.0', '<')) {
+if (version_compare(PHP_VERSION, '7.1', '<')) {
     // Warn user that his/her PHP version is too low for this plugin to function.
     add_action('admin_notices', function () {
         echo '<div class="error"><p>';
         echo esc_html(
             sprintf(
-                __('BC Image Copyright plugin requires PHP 7.0 to function properly, but you have version %s installed. The plugin has been auto-deactivated.', 'bc-image-copyright'),
+                __('BC Image Copyright plugin requires PHP 7.1 to function properly, but you have version %s installed. The plugin has been auto-deactivated.', 'bc-image-copyright'),
                 PHP_VERSION
             )
         );
