@@ -1,6 +1,6 @@
 # BC Image Copyright
 
-Display and manage copyright information of your (image) image files.
+Display and manage copyright information of your (image) media files.
 
 ## Requirements
 
